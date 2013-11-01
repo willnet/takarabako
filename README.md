@@ -1,6 +1,18 @@
 # Takarabako
 
-TODO: Write a gem description
+ランダムにアイテム名を返すツールです。ゲーム作る時のテストの時などに使えます。
+
+## Usage
+
+```ruby
+Takarabako.open #=> "アイアンソード"
+Takarabako.open #=> "ミスリルソード"
+Takarabako.open #=> "アイアンダガー"
+Takarabako.open #=> "アイアンメイル"
+Takarabako.open #=> "ダイヤモンドランス"
+```
+
+出力される名前の候補となるデータは `lib/data/names.yml` にあるので、必要であればファイルを修正してください。
 
 ## Installation
 
@@ -15,10 +27,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install takarabako
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
