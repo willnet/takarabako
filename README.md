@@ -1,18 +1,21 @@
 # Takarabako
 
-ランダムにアイテム名を返すツールです。ゲーム作る時のテストの時などに使えます。
+[![Build Status](https://travis-ci.org/willnet/takarabako.png)](https://travis-ci.org/willnet/takarabako)
+[![Gem Version](https://badge.fury.io/rb/takarabako.png)](http://badge.fury.io/rb/takarabako)
+[![endorse](https://api.coderwall.com/willnet/endorsecount.png)](https://coderwall.com/willnet)
+
+ランダムにアイテム名を返すツールです。ゲームを作る際のテストなどに使えます。
 
 ## Usage
 
 ```ruby
-Takarabako.open #=> "アイアンソード"
-Takarabako.open #=> "ミスリルソード"
-Takarabako.open #=> "アイアンダガー"
-Takarabako.open #=> "アイアンメイル"
-Takarabako.open #=> "ダイヤモンドランス"
+Takarabako.open #=> "雷神の剣"
+Takarabako.open #=> "インフィニティグローブ"
+Takarabako.open #=> "賢者の鎧"
+Takarabako.open #=> "ルシフェルレイピア"
 ```
 
-出力される名前の候補となるデータは `lib/data/names.yml` にあるので、必要であればファイルを修正してください。
+出力される名前の候補となるデータは `lib/data/names.ja.yml` と `lib/data/names.en.yml` にあるので、必要であればファイルを修正してください。
 
 ## Installation
 
