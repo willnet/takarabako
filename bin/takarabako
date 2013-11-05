@@ -1,0 +1,3 @@
+require 'takarabako'
+
+puts Takarabako.new.to_s
