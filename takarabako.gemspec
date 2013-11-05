@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Takarabako::VERSION
   spec.authors       = ["willnet"]
   spec.email         = ["netwillnet@gmail.com"]
-  spec.description   = %q{random Japanese name generator}
-  spec.summary       = %q{random Japanese item name generator}
+  spec.description   = %q{random Japanese name of game item generator}
+  spec.summary       = %q{random Japanese name of game item generator}
   spec.homepage      = "https://github.com/willnet/takarabako"
   spec.license       = "MIT"
 
