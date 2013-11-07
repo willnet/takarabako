@@ -17,6 +17,18 @@ Takarabako.open #=> "ルシフェルレイピア"
 
 出力される名前の候補となるデータは `lib/data/names.ja.yml` と `lib/data/names.en.yml` にあるので、必要であればファイルを修正してください。
 
+### takarabakoコマンド
+
+takarabakoをインストールすると
+```takarabako``` コマンドが使えるようになります。
+
+```
+> takarabako
+雷神の剣
+> takarabako
+賢者の鎧
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:
