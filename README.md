@@ -20,7 +20,8 @@ Takarabako.open #=> "ルシフェルレイピア"
 ### takarabakoコマンド
 
 takarabakoをインストールすると
-```takarabako``` コマンドが使えるようになります。
+
+`takarabako` コマンドが使えるようになります。
 
 ```
 > takarabako
@@ -28,6 +29,13 @@ takarabakoをインストールすると
 > takarabako
 賢者の鎧
 ```
+## Supported versions
+
+- 1.9.3
+- 2.0.0
+- 2.1.x
+- 2.2.x
+- 2.3.x
 
 ## Installation
 
