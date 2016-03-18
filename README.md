@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/willnet/takarabako.png)](https://travis-ci.org/willnet/takarabako)
 [![Gem Version](https://badge.fury.io/rb/takarabako.png)](http://badge.fury.io/rb/takarabako)
-[![endorse](https://api.coderwall.com/willnet/endorsecount.png)](https://coderwall.com/willnet)
 
 ランダムにアイテム名を返すツールです。ゲームを作る際のテストなどに使えます。
 
