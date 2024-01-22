@@ -1,3 +1,6 @@
+[Releases · willnet/takarabako](https://github.com/willnet/takarabako/releases) に移行しました
+
+
 # 0.1.1
 
 * グンマーなどの名前データを追加
