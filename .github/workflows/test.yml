@@ -15,15 +15,22 @@ permissions:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
     strategy:
       fail-fast: false
 
       matrix:
-        ruby-version: ['2.3', '2.4', '2.5', '2.6', '2.7', '3.0', '3.1', '3.2', '3.3', 'head']
+        # Ubuntu 26.04 only provides Ruby 3.2 and newer.
+        os: ['ubuntu-24.04']
+        ruby-version: ['2.3', '2.4', '2.5', '2.6', '2.7', '3.0', '3.1']
         include:
+          - ruby-version: '3.2'
+            os: ubuntu-26.04
+          - ruby-version: '3.3'
+            os: ubuntu-26.04
           - ruby-version: 'head'
+            os: ubuntu-26.04
             allow_failures: 'true'
 
     steps:
