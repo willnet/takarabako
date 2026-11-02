@@ -29,6 +29,8 @@ jobs:
             os: ubuntu-26.04
           - ruby-version: '3.3'
             os: ubuntu-26.04
+          - ruby-version: '4.0'
+            os: ubuntu-26.04
           - ruby-version: 'head'
             os: ubuntu-26.04
             allow_failures: 'true'
